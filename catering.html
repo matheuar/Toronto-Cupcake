@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Toronto Cupcake</title>
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div class="wrapper">
+      <header>
+         <a href="index.html"><h1>Toronto Cupcake</h1></a>
+      <nav>
+         <ul>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="cupcakes.html">Cupcakes</a></li>
+            <li><a href="catering.html">Catering</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+         </ul>
+         <div class="menu-icon">
+            <a href="javascript:void(0);" class="icon" onclick="ToggleMenu()">
+               <i class="fa fa-bars"></i>
+         </div>
+      </nav>
+      </header>
+<main>
+   <h2>Catering</h2>
+   <p>At Toronto Cupcake, we believe every celebration deserves a sweet touch. Our beautifully crafted, delicious cupcakes are perfect for any occasion—whether it’s an elegant wedding, a fun-filled birthday party, or a corporate event. We work with you to customize every detail, from flavors and colors to intricate designs that reflect your event’s unique theme.</p>
+   <p>Our services go beyond just cupcakes. We offer cupcake stand rentals to create stunning displays that are sure to impress your guests, and for those looking for something one-of-a-kind, we even build custom cupcake stands tailored to your vision. Whether you’re hosting an intimate gathering or a grand event, we’re here to make your celebration unforgettable with cupcakes that are as delightful to look at as they are to eat.</p>
+   <p>No matter the occasion, Toronto Cupcake is dedicated to providing sweet creations that elevate your event. From weddings and engagement parties to graduations and baby showers, let us bring a little sweetness to your special day.</p>
+   <h2>Select Your Occation</h2>
+   <ul>
+      <li>Weddings</li>
+      <li>Birthdays</li>
+      <li>Engagement parties</li>
+      <li>Anniversaires</li>
+      <li>Graduations</li>
+      <li>Holidays</li>
+      <li>Baby Showers</li>
+      <li>Corporate Events</li>
+   </ul>
+   images open to each selection?
+</main>
+
+      <footer>
+         <p><a href="https://www.instagram.com/torontocupcake/">Instagram</a></p>
+         <p>Contact Me</p>
+         <p>
+            Phone:
+            <br>
+            887-334-9468
+            <br>
+            Email:
+            <br>
+            inquiry@torontocupcake.com
+         </p>
+         <p>
+            Hours
+            <br>
+            7am-10pm
+            <br>
+            (No Pick-ups or deliveries for 2 dozen or more)
+         </p>
+         <p>Location</p>
+         <p>Careers</p>
+         <p>Privacy Policy</p>
+         <p>© 2024 Toronto Cupcake. All rights reserved.</p>
+      </footer>
+      <script>
+         let menulist = document.getElementById("menulist")
+         menulist.style.maxHeight = "0px";
+      
+         function ToggleMenu(){
+            if(menulist.style.maxHeight == "0px")
+          {
+            menulist.style.maxHeight = "300px";
+          }
+          else{
+            menulist.style.maxHeight = "0px";
+          }
+         }
+      </script>
+   </div>
+</body>
+</html>

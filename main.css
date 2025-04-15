@@ -1,0 +1,53 @@
+.wrapper{
+   margin: 0 1rem;
+   border: 2px solid #e68aa9;
+   box-shadow: 5px 5px 13px rgb(255, 162, 177);
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+   background-color:#e68aa9 ;
+   position: sticky;
+}
+header a{
+   text-decoration: none;
+}
+header h1{
+   font-size: 2.5rem;
+   color: white;
+}
+nav ul{
+   flex-direction: column;
+   position: absolute;
+   top: 69px;
+   right: 0px;
+   background-color: #e68aa9;
+   overflow: hidden;
+}
+nav a{
+   padding: .75rem .75rem;
+   font-size: 120%;
+   text-decoration: none;
+   text-transform: uppercase;
+   display: block;
+   color: aliceblue;
+   letter-spacing: .5px;
+   justify-content: center;
+}
+.menu-icon{
+   font-size: 40px;
+   position: absolute;
+   top: 0px;
+   right: 20px;
+}
+a{
+   text-decoration: none;
+}
+p{
+   color: black;
+}
+h2{
+   color: black;
+}
