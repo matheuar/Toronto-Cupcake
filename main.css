@@ -28,15 +28,56 @@ header h1 {
   color: white;
   font-family: "Elsie Swash Caps", serif;
 }
+nav input[type="checkbox"],
+nav label {
+   display: none;
+}
+input[type="checkbox"]:not(:checked)+ul {
+      display: none;
+}
 
+header nav label {
+   cursor: pointer;
+   display: block;
+   align-self: center;
+   color: white; 
+   font-size: 350%;
+   padding: .25rem .5rem .5rem .5rem;
+}
 
 nav ul {
-  flex-direction: column;
-  position: absolute;
-  top: 69px;
-  right: 0px;
-  background-color: #e68aa9;
-  overflow: hidden;
+   background-color: #e68aa9;
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   position: absolute;
+   top: 90px;
+   right: 0px;
+   background-color: #e68aa9;
+   overflow: hidden;
+}
+
+nav ul li {
+   text-align: center;
+   padding: 0;
+   border-bottom: 3px solid #e68aa9;
+}
+
+nav ul li:last-child {
+   border-bottom: none;
+}
+
+nav ul li a {
+   display: block;
+   font-size: 125%;
+   color: white;
+   margin: 0;
+   border-radius: 0;
+   padding: 1rem 2rem;
+}
+
+nav ul li a:hover {
+   color: white;
 }
 
 nav a {
@@ -45,16 +86,11 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   display: block;
-  color: aliceblue;
+  color: snow;
   letter-spacing: .5px;
   justify-content: center;
-}
-
-.menu-icon {
-  font-size: 40px;
-  position: absolute;
-  top: 0px;
-  right: 20px;
+  transition: all .75s ease;
+  border-radius: 10px;
 }
 
 a {
@@ -81,8 +117,7 @@ main h2 {
 }
 
 main img {
-  /* max-width: 350px; */
-  max-width: 100%; /* changed the max-width to this */
+  max-width: 100%;
   height: auto;
 }
 
@@ -96,11 +131,6 @@ section.homeinfo {
   grid-column: 1/4;
   grid-row: 1/2;
   display: flex;
-}
-
-.homept1 img {
-  margin: 1rem;
-  box-shadow: 5px 5px 12px 3px #759f75;
 }
 
 .homept1 .intro {
@@ -117,11 +147,6 @@ section.homeinfo {
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
-}
-
-.homept2 img {
-  grid-column: 3/4;
-  box-shadow: 5px 5px 12px 3px #759f75;
 }
 
 .homept2 h2 {
@@ -282,16 +307,25 @@ section.aboutus h2{
 }
 section.aboutus img{
    float: right;
+   border: 3px solid #e68aa9; 
+   box-shadow: 0px 5px 10px -5px black;
+   border-radius: 10px;
 }
 .founder{
    display: flex;
 }
 .founder img{
-   margin-left: 13rem;
+   margin-left: 10rem;
+   border: 3px solid #e68aa9; 
+   box-shadow: 0px 5px 10px -5px black;
+   border-radius: 10px;
 }
 .founder h2{
    margin: 1rem 1rem 0rem 1rem;
 }
 .fbio{
-   margin: 1rem 14rem 1rem 1rem;
+   margin:0rem 7rem 1rem 1rem;
 }
+
+/* Catering */
+

@@ -14,20 +14,20 @@
 <body>
    <div class="wrapper">
       <header>
-         <a href="index.html"><h1>Toronto Cupcake</h1></a>
-      <nav>
-         <ul>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="cupcakes.html">Cupcakes</a></li>
-            <li><a href="catering.html">Catering</a></li>
-            <li><a href="faqs.html">FAQs</a></li>
-         </ul>
-         <div class="menu-icon">
-            <a href="javascript:void(0);" class="icon" onclick="ToggleMenu()">
-               <i class="fa fa-bars"></i>
-         </div>
-      </nav>
-      </header>
+         <a href="index.html">
+           <h1>Toronto Cupcake</h1>
+         </a>
+         <nav>
+            <label for="menu" tabindex="0"> ☰ </label>
+            <input id="menu" type="checkbox" />
+           <ul>
+             <li><a href="about.html">About Me</a></li>
+             <li><a href="cupcakes.html">Cupcakes</a></li>
+             <li><a href="catering.html">Catering</a></li>
+             <li><a href="faqs.html">FAQs</a></li>
+           </ul>
+         </nav>
+       </header>
 <main>
    <h2>Cupcakes</h2>
    <h3>Need to know Prices</h3>
@@ -206,20 +206,6 @@
    <p>© 2024 Toronto Cupcake. All rights reserved.</p>
    </div>
 </footer>
-      <script>
-         let menulist = document.getElementById("menulist")
-         menulist.style.maxHeight = "0px";
-      
-         function ToggleMenu(){
-            if(menulist.style.maxHeight == "0px")
-          {
-            menulist.style.maxHeight = "300px";
-          }
-          else{
-            menulist.style.maxHeight = "0px";
-          }
-         }
-      </script>
    </div>
 </body>
 </html>
