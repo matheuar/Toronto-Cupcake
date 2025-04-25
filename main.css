@@ -1,10 +1,9 @@
 .wrapper {
-  /* margin: 0rem 15rem; */
-  margin: 0 auto; /* This is he correct way to center a wrapper on a page. The method you were using with 15rem margins was forcing the content to get smushed on smaller browser windows. */
+  margin: 0 auto;
   border: 5px solid #e68aa9;
   box-shadow: 5px 5px 13px #ffa2b1;
   background-color: white;
-  max-width: 1000px; /* Set a maximum width so the content doesn't get too wide to read on big monitors but can still shrink for smaller ones. */
+  max-width: 1000px; 
 }
 
 body {
@@ -29,6 +28,7 @@ header h1 {
   color: white;
   font-family: "Elsie Swash Caps", serif;
 }
+
 
 nav ul {
   flex-direction: column;
@@ -231,10 +231,6 @@ footer img {
   font-size: 135%;
 }
 
-
-/* New classes for the alternate homepage layout
------------------ */
-
 .img-left {
   float: left;
   margin: 0 2rem 1rem 0;
@@ -258,11 +254,44 @@ footer img {
 }
 
 .homepage-intro img {
-  border: 3px solid #e68aa9; /* added a border */
+  border: 3px solid #e68aa9; 
   box-shadow: 0px 5px 10px -5px black;
   border-radius: 10px;
 }
 
 .homepage-intro strong {
   color: #e58aa9;
+}
+
+/* About Us */
+
+
+p{
+   font-size: 160%;
+}
+img{
+   max-height: 300px;
+   margin: 1rem 1rem 2rem 1rem;
+   box-shadow: 5px 5px 12px 3px #759f75;
+}
+section.aboutus{
+   margin: 1rem;
+}
+section.aboutus h2{
+   margin: 1rem 0;
+}
+section.aboutus img{
+   float: right;
+}
+.founder{
+   display: flex;
+}
+.founder img{
+   margin-left: 13rem;
+}
+.founder h2{
+   margin: 1rem 1rem 0rem 1rem;
+}
+.fbio{
+   margin: 1rem 14rem 1rem 1rem;
 }
