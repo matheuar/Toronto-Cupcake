@@ -1,3 +1,4 @@
+/* I don't understand why you're making a new stylesheet. Why aren't these part of main.css?  */
 p{
    font-size: 160%;
 }
