@@ -106,7 +106,7 @@ h2 {
   color: black;
 }
 
-main { /* control your main content text with this */
+main { 
   font-size: 135%;
   line-height: 1.4;
   padding: 1rem 2rem;
@@ -297,7 +297,6 @@ p{
 img{
    max-height: 300px;
    margin: 1rem 1rem 2rem 1rem;
-   box-shadow: 5px 5px 12px 3px #759f75;
 }
 section.aboutus{
    margin: 1rem;
@@ -320,8 +319,9 @@ section.aboutus img{
    box-shadow: 0px 5px 10px -5px black;
    border-radius: 10px;
 }
-.founder h2{
+.founder h3{
    margin: 1rem 1rem 0rem 1rem;
+   color: white;
 }
 .fbio{
    margin:0rem 7rem 1rem 1rem;
@@ -329,3 +329,27 @@ section.aboutus img{
 
 /* Catering */
 
+img{
+   border: 3px solid #e68aa9; 
+   box-shadow: 0px 5px 10px -5px black;
+   border-radius: 10px;
+}
+.occasions img{
+   max-width: 300px;
+   margin-left: 0;
+}
+.occasions h3{
+   font-size: 130%;
+   color: #759f75;
+}
+.occasions{
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   grid-gap: 3rem;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+}
+.occasions p{
+   font-size: 110%;
+}
