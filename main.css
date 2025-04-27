@@ -353,3 +353,16 @@ img{
 .occasions p{
    font-size: 110%;
 }
+
+/* FAQ's */
+
+.faqs h3{
+   font-size: 140%;
+   color: #759f75;
+}
+h4{
+   font-size: 120%;
+}
+.faqs p{
+   font-size: 100%;
+}
