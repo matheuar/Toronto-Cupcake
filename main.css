@@ -366,3 +366,46 @@ h4{
 .faqs p{
    font-size: 100%;
 }
+
+/* Cupcakes */
+
+.cch2{
+   font-size: 300%;
+}
+
+.cch3{
+   font-size: 250%;
+   color: #759f75;
+}
+.cupcakes p, .prices p{
+   font-size: 90%;
+}
+.cupcakes h4{
+   font-size: 200%;
+}
+.cupcakes{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.cupcakes ul{
+   list-style-type: none;
+}
+.cupcakes ul li {
+   font-size: 160%;
+}
+.cupcakes img{
+   max-width: 300px;
+   margin-left: 0;
+}
+.cupcakes h5{
+   background-color: #e58aa9;
+   color: white;
+   font-size: 90%;
+   padding: 1rem 1rem 1rem 1rem;
+   margin: 1rem 21rem 1rem 0 ;
+   box-shadow: 6px 6px 15px #759f75 ;
+}
+
+@media screen {
+   
+}
