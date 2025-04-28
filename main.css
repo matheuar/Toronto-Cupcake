@@ -340,53 +340,229 @@ h4{
 /* Cupcakes */
 
 .cch2{
-   font-size: 300%;
+   font-size: 400%;
 }
-
 .cch3{
-   font-size: 250%;
+   font-size: 350%;
    color: #759f75;
 }
 .cupcakes p, .prices p{
    font-size: 90%;
 }
 .cupcakes h4{
-   font-size: 200%;
+   font-size: 300%;
+   margin-bottom: -1rem;
    font-family: "Niconne", cursive;
 }
-.cupcakes{
+section.cupcakes{
    display: grid;
    grid-template-columns: 1fr 1fr;
 }
-.cupcakes ul{
+section.cupcakes ul {
    list-style-type: none;
 }
-.cupcakes ul li {
+section.cupcakes ul li {
    font-size: 160%;
    font-family: "Quintessential", serif;
+   margin-bottom: -1rem;
 }
 .cupcakes img{
    max-width: 300px;
    margin-left: 0;
 }
-.cupcakes h5{
+section.cupcakes h5{
    background-color: #e58aa9;
    color: white;
    font-size: 90%;
    padding: 1rem 1rem 1rem 1rem;
-   margin: 1rem 21rem 1rem 0 ;
+   margin: 1rem 21rem 2rem 0 ;
    box-shadow: 6px 6px 15px #759f75 ;
+}
+.ra{
+   grid-column: 1/3;
+   grid-row: 1/2;
+   margin-bottom: 1rem;
+}
+.ra ul h5{
+   margin: 2rem 50rem 1rem 0 ;
+}
+.chocolate{
+   grid-column: 1/2;
+   grid-row: 2/3;
+}
+.vanilla{
+   grid-column: 2/3;
+   grid-row: 2/3;
+}
+.other{
+   grid-column: 2/3;
+   grid-row: 3/4;
+   margin-top: -53rem;
 }
 
 /* Responsive */
 
-@media screen {
+@media (max-width:480px) {
    /* Home */
 
-   
+   header h1{
+      font-size: 2.25rem;
+   }
+   main { 
+      font-size: 90%;
+      line-height: 1.2;
+      padding: 1rem 2rem;
+   }
+   main img {
+      max-width: 45%;
+      height: auto;
+   }
+   .img-left {
+      margin: 0 1rem 1rem 0;
+   }
+   .img-right {
+      margin: 1.75rem 0 .75rem 1.5rem;
+   }
+   .button {
+      font-size: 200%;
+      margin: 1rem 5rem;
+      border-radius: 3rem;
+      padding: 1rem;
+      transition: all 1s ease-in-out;
+   }
+   .scrollh2 {
+      padding: 2rem 0 1rem 0;
+      font-size: 190%;
+   }
+   div.scroll-container {
+      padding: 10px;
+      margin: 0 0 1rem 0;
+   }
+   div.scroll-container img {
+      max-width: 300px;
+      max-height: 400px;
+   }
+   footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      padding: 2rem 0rem 0 0rem;
+      justify-content: space-between;
+   }
+   .contact {
+      margin-left: 2rem;
+   }
+   .contact h3 {
+      font-size: 115%;
+      font-family: "Orelega One", serif;
+   }
+   .contact p {
+      font-size: 95%;
+   }
+   .extra {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 45%;
+   }
+   footer img {
+      max-width: 50px;
+      border-radius: 25px;
+      margin: 0 1.75rem 0 0;
+   }
+   .hours {
+      grid-column: 3/4;
+      grid-row: 1/2;
+   }
+   .hours h3 {
+      font-size: 115%;
+      font-family: "Orelega One", serif;
+   }
+   .hours p{
+      font-size: 95%;
+   }
 
    /* About us */
+
+   section.aboutus{
+      margin: 0rem;
+   }
+   .founder img{
+      margin-left: 2rem;
+      max-height: 250px;
+      margin: 1rem 1rem 0rem 0rem;
+   }
+   .founder h3{
+      margin: 1rem 1rem 0rem 1rem;
+      color: white;
+   }
+   .fbio{
+      margin:0rem 0rem 1rem 0rem;
+   }
+   p{
+      font-size: 140%;
+   }
+
    /* Catering */
+
+   .occasions img{
+      max-width: 200px;
+      margin: .5rem 0 .5rem 0;
+   }
+   h2{
+      font-size: 200%;
+   }
+   .occasions h3{
+      font-size: 170%;
+   }
+   .occasions{
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-gap: 1rem;
+      margin-top: 1rem;
+   }
+   .occasions p{
+      font-size: 110%;
+   }
+
    /* Cupcakes */
-   /* FAQ's */
+
+   .cch2{
+      font-size: 300%;
+   }
+   .cch3{
+      font-size: 250%;
+   }
+   .cupcakes p, .prices p{
+      font-size: 100%;
+   }
+   .cupcakes h4{
+      font-size: 200%;
+      margin-bottom: -.5rem;
+   }
+   section.cupcakes{
+      grid-gap: 3.5rem;
+   }
+   section.cupcakes ul li {
+      font-size: 120%;
+      margin-bottom: -1rem;
+   }
+   .cupcakes img{
+      max-width: 150px;
+   }
+   section.cupcakes h5{
+      font-size: 80%;
+      padding: 1rem 1rem 1rem 1rem;
+      margin: 1.5rem 5rem 2rem 0 ;
+   }
+   .ra{
+      margin-bottom: -1rem;
+   }
+   .ra ul h5{
+      margin: 2rem 19rem 0rem 0 ;
+   }
+   .other{
+      grid-column: 2/3;
+      grid-row: 3/4;
+      margin-top: -46rem;
+   }
 }
